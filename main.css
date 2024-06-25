@@ -26,7 +26,7 @@
     border-radius: 5px;
 }
 .navbar-nav li a:hover{
-    background-color: var(--secondary-color);
+    background-color: #5755FE;
     border-radius: 5px;
     font-weight: var(--font-weight);
     color: #fff;
@@ -36,4 +36,17 @@
     object-fit: cover;
     object-position: center;
     height: calc(100vh - 50px);
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+.card{
+    width: 500px;
+    height: 300px;
+    background-color: #FF71CD;
 }
